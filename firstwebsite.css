@@ -1,0 +1,178 @@
+* {
+  font-family: "Parkinsans";
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 10px;
+  padding: 10px;
+}
+.head {
+  margin: 10px;
+  cursor: pointer;
+}
+.head:hover {
+  color: rgb(0, 179, 255);
+}
+
+.main::before {
+  content: "";
+  background: url("images/website_img.webp") no-repeat center center/cover;
+  height: 80%;
+  width: 90%;
+  margin: 0 5%;
+  object-fit: contain;
+  position: absolute;
+  z-index: -1;
+}
+.main {
+  height: 650px;
+}
+.main > p {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.main > p:first-child {
+  padding-top: 50px !important;
+}
+
+.title {
+  font-size: 7rem;
+  margin: 0;
+}
+
+.subhead {
+  font-size: 2rem;
+}
+
+.selection {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  width: max-content;
+  margin: auto;
+  margin-top: 100px;
+  padding: 30px;
+  background-color: #ffffff78;
+}
+.checkin,
+.rooms {
+  margin: 0px 10px;
+}
+input,
+select {
+  width: 200px;
+  height: 33px;
+}
+
+.search {
+  border-radius: 5px;
+  background-color: #007dff;
+  width: 170px;
+  height: 35px;
+  margin-top: 21px;
+}
+
+hr {
+  width: 90%;
+  margin: auto;
+  opacity: 0.8;
+}
+
+.footer {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  margin: 10px 5% 0 5%;
+}
+
+.icon {
+  font-weight: 600;
+}
+
+.icons {
+  border-radius: 50%;
+  object-fit: contain;
+  width: 3%;
+  height: 3%;
+  margin: 0 5px;
+  padding: 0 2px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left {
+  display: flex;
+  width: 420px;
+}
+
+.left > p {
+  font-size: 15px;
+  font-weight: 100;
+  margin: 0px 10px;
+  width: max-content;
+}
+
+@media (width < 850px) {
+  .main > p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  .title {
+    font-size: 4rem;
+  }
+
+  .subhead {
+    font-size: 1.5rem;
+  }
+
+  .selection {
+    width: 50vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon {
+    text-align: center;
+  }
+
+  .icons {
+    border-radius: 50%;
+    object-fit: contain;
+    width: 8%;
+    height: 10%;
+  }
+
+  .left {
+    width: max-content;
+  }
+
+  .left > p {
+    font-size: 15px;
+    font-weight: 100;
+    margin: 0px 10px;
+    width: max-content;
+  }
+}

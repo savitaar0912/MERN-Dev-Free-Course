@@ -1,0 +1,28 @@
+.dec > a{
+    text-decoration: none;
+}
+div>p{
+    color: rgb(155, 155, 229);
+}
+
+div + p{
+    color: chocolate;
+}
+
+div p {
+    color: aqua;
+}
+
+.dec{
+}
+
+#nav{
+    /* display: none; */
+    opacity: 0.8;
+    text-shadow: 10px 10px  blue;
+    z-index: 1;
+}
+
+::before{
+
+}

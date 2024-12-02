@@ -1,0 +1,39 @@
+.box{
+    border: 2px solid black;
+    margin: 5px 10px;
+    padding: 10px;
+}
+
+.first{
+    background-color: aquamarine;
+}
+
+.second{
+    background-color: blue;
+}
+
+.third{
+    background-color: red;
+}
+
+.forth{
+    background-color: rgb(130, 130, 243);
+}
+
+.container{
+    border: 2px solid red;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 2 3 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inner{
+    border: 3px solid grey;
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+}

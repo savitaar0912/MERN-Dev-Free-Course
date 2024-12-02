@@ -1,0 +1,32 @@
+.box{
+    border: 2px solid black;
+    background-color: aqua;
+    text-align: center;
+}
+
+@media (width<= 300px) {
+    .box{
+        background-color: rgb(40, 178, 202);
+    }
+}
+
+@media (300px <= width <= 600px){
+    .box{
+        background-color: rgb(24, 197, 96);
+        font-size: large;
+    }
+}
+
+@media (600px <= width <= 900px){
+    .box{
+        background-color: rgb(147, 79, 135);
+        font-size: x-large;
+    }
+}
+
+@media (width >= 900px){
+    .box{
+        background-color: rgb(216, 213, 77);
+        font-size: xx-large;
+    }
+}
