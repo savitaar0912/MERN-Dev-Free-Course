@@ -49,6 +49,13 @@
   font-size: 2rem;
 }
 
+.date{
+  font-size: medium;
+  margin: auto;
+  width: max-content;
+  display: block;
+}
+
 .selection {
   display: flex;
   justify-content: center;
